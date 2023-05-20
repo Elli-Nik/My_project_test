@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About2</title>
+</head>
+
+    {% extends 'templates/baseTemplate' %}
+    {% if name %}
+    <div class="content">
+        <h1> Привет </h1>
+        <h2> {{name}} </h2>
+    </div>
+    {% endblock %}
